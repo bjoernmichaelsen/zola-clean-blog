@@ -1,7 +1,7 @@
 // Styling for the post page
 .post-preview {
   > a {
-    color: $gray-900;
+    color: $gray-300;
     &:focus,
     &:hover {
       text-decoration: none;
@@ -27,7 +27,7 @@
     color: $gray-600;
     > a {
       text-decoration: none;
-      color: $gray-900;
+      color: $gray-300;
       &:focus,
       &:hover {
         text-decoration: underline;
@@ -42,4 +42,14 @@
       }
     }
   }
+}
+.container .posts {
+    background-color: #0a110a;
+    color: white;
+    padding: 10px;
+}
+article .container {
+    background-color: #0a110a;
+    color: white;
+    padding: 10px;
 }

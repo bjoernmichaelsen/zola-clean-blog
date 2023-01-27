@@ -54,3 +54,10 @@ Copyright %copy; Example, Inc. 2016-2019
 </script>
 {% endblock analytics %}
 ```
+
+## CSS
+
+```
+sudo apt-get sass # should install ruby-sass
+sass -t compressed sass/clean-blog.scss static/css/all.min.css
+```
